@@ -29,6 +29,6 @@ Be careful because the configuration established for this proyect at "blog/app/C
 You should adapt this configuration but if you installed the server just now then nothing of this is neccesary, just import the sql script.
 
 # Use
-After the installation, just go to localhost/blog or serverpath/blog and you will see this:
+After the installation, just go to localhost/blog or serverpath/blog
 
 # Read the Tutorial!
