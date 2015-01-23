@@ -1,0 +1,73 @@
+2015-01-23 16:13:02 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/posts/index
+Stack Trace:
+#0 C:\WAMP\www\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 16:14:03 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /posts/index
+Stack Trace:
+#0 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\WAMP\www\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-23 16:14:45 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /posts
+Stack Trace:
+#0 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\WAMP\www\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-23 16:15:38 Error: [MissingActionException] Action PostsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'index',
+)
+Request URL: /posts
+Stack Trace:
+#0 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\WAMP\www\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-23 16:18:02 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /posts/view/1
+Stack Trace:
+#0 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\WAMP\www\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\WAMP\www\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-23 16:19:23 Error: [MissingControllerException] Controller class BlogController could not be found.
+Exception Attributes: array (
+  'class' => 'BlogController',
+  'plugin' => NULL,
+)
+Request URL: /blog/posts/index
+Stack Trace:
+#0 C:\WAMP\www\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-23 16:20:31 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /blog/posts/view/1
+Stack Trace:
+#0 C:\WAMP\www\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\WAMP\www\blog\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 C:\WAMP\www\blog\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
